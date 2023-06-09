@@ -1,11 +1,22 @@
+@font-face {
+    font-family: penis;
+    src: url('Invisible-ExtraBold.otf');
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
 nav a {
     color: rgb(207, 0, 248);
     font-size: 40px;
     text-decoration: none;
     margin: 0px 5%; 
     padding:5px 10px;
+    text-transform: capitalize;
     
-    font-family: font;
+    font-family: penis;
 }
 
 nav a:hover {
@@ -17,7 +28,7 @@ nav a:hover {
 nav {
     background-color: (#000);
     text-align: center;
-    margin:20px 0px;
+    margin-bottom: 20px;
     padding:10px 0px; 
     box-shadow: 0px 0px 20px #023670;  
-}
+} 
