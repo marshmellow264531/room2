@@ -1,5 +1,5 @@
 @font-face {
-    font-family: penis;
+    font-family: invisible;
     src: url('Invisible-ExtraBold.otf');
 }
 *{
@@ -16,7 +16,7 @@ nav a {
     padding:5px 10px;
     text-transform: capitalize;
     
-    font-family: penis;
+    font-family: invisible;
 }
 
 nav a:hover {
