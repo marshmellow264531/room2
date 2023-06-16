@@ -42,3 +42,6 @@ nav {
     padding:10px 0px; 
     box-shadow: 0px 0px 20px #023670;  
 } 
+div {
+    padding-left: 20px;
+}
