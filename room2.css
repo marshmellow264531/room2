@@ -51,6 +51,18 @@ nav {
     padding-left: 20px;
     text-transform: capitalize;
 }
-.gallery{
-
+.gallery {
+    width: 90%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    
+}
+iframe{
+    width: 100%;
+}
+.bigBoy {
+    grid-column: 1/3;
 }
