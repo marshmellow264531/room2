@@ -2,6 +2,10 @@
     font-family: invisible;
     src: url('Invisible-ExtraBold.otf');
 }
+@font-face {
+    font-family: metal;
+    src: url('DeathMohawk_PERSONAL_USE_ONLY.otf');
+}
 *{
     box-sizing: border-box;
     padding: 0px;
@@ -27,17 +31,18 @@ nav a {
     margin-top:50px;
     background-color:#544a48;
     color: #cfc3c2;
-    font-size: 40px;
+    font-size: 100px;
+    letter-spacing: 7px;
     text-decoration: none;
     margin: 0px 5%; 
     padding:5px 10px;
     text-transform: capitalize;
-    font-family: invisible;
+    font-family: metal;
 }
 
 nav a:hover {
     background-color:grey;
-    color: #023670;
+    color: #b51f1f;
     border-radius:30px;
     
 }
@@ -46,7 +51,7 @@ nav {
     text-align: center;
     margin-bottom: 20px;
     padding:10px 10px; 
-    box-shadow: 0px 0px 20px #023670;  
+    box-shadow: 0px 0px 20px #b51f1f;  
 } 
 .contact {
     padding-left: 20px;
@@ -55,7 +60,7 @@ nav {
 .gallery {
     width: 90%;
     margin: 10px auto;
-    display: grid;
+    display: row;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
@@ -74,5 +79,9 @@ video {
 }
 .moosic {
     margin-left: 50px;
+  
+}
+.moosic2 {
+    margin-left: 1190px;
   
 }
